@@ -3,21 +3,20 @@
         <title>S. De La Rosa Portfolio</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="stylesheet" href="./assets/css/reset.css" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Monda&family=Press+Start+2P&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="./assets/style.css" />
     </head>
 
     <header>
-        <nav class="navbar">
+        <nav class="header">
             <div class="title">Sophia De La Rosa</div>
             <div class="links">
                 <ul>
-                    <li><a href="#">About Me</a></li>
-                    <li><a href="#">Work</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Resume</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#resume">Resume</a></li>
                 </ul>
             </div>
         </nav>
@@ -25,8 +24,12 @@
 
     <body>
         <main>
+            <!-- Grid class made to separate left side section titles from main content on the left -->
             <section class="grid">
-                <h2 class="section-title">About Me</h2>
+                <div>
+                    <h2 class="section-title">About Me</h2>
+                </div>
+                <!-- Content class made to put a border on the left and visually separate main content on the right -->
                 <div class="content">
                     <img class="profile-pic" src="./assets/images/avatar.png" />
                 </div>
@@ -38,37 +41,47 @@
                 </div>
             </section>
 
-            <section class="grid">
+            <!-- Topics separated into sections -->
+            <section class="grid-two">
                 <div>
                     <h2 class="section-title">Work</h2>
                 </div>
                 <div class="content">
-                    <img class="primary-img" src="./assets/images/htmledited.png" />
-                    <img class="secondary-img" src="./assets/images/formedited.png" />
-                    <img class="secondary-img" src="./assets/images/keyboardedited.png" />
+                    <a href="#"><img class="primary-img" src="./assets/images/htmledited.png" /></a>
+                    <a href="#"><img class="secondary-img" src="./assets/images/formedited.png" /></a>
+                    <a href="#"><img class="secondary-img" src="./assets/images/keyboardedited.png" /></a>
                 </div>
             </section>
             
-            <section class="grid">
+            <section class="grid-three" id="contact">
                 <div>
                     <h2 class="section-title">Contact</h2>
                 </div>
+                <div class="content">
+                    <a href="https://github.com/sophiadelarosa"><p>GitHub</p></a>
+                </div>
+                <div>
+                    <p>404-862-1307</p>
+                </div>
+                <div>
+                    <p>Sophia.DeLaRosa@warnermedia.com</p>
+                </div>
             </section>
         
-            <section class="grid">
-                <h2 class="section-title">Resume</h2>
+            <section class="grid-two" id="resume">
+                <div>
+                    <h2 class="section-title">Resume</h2>
+                </div>
+                <div class="content">
+                    <img class="resume" src="./assets/images/resume.png" />  
+                </div>
             </section>
 
 
         </main>
     
-        <footer>
-            <h3>
-              Footer text!
-            </h3>
-        </footer>
+        <footer></footer>
 
-        <link href="./assets/script.js" />
     </body>
 </html>
 
