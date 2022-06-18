@@ -3,17 +3,20 @@
         <title>S. De La Rosa Portfolio</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Monda&family=Press+Start+2P&display=swap" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="./assets/style.css" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Monda&family=Press+Start+2P&display=swap" rel="stylesheet">  
+        <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
     </head>
 
+    <!--Navbar-->
     <header>
-        <nav class="header">
-            <div class="title">Sophia De La Rosa</div>
-            <div class="links">
+        <nav>
+            <div class="title col-md-7">Sophia De La Rosa</div>
+            <div id="navlinks">
                 <ul>
-                    <li><a href="#about">About Me</a></li>
                     <li><a href="#work">Work</a></li>
                     <li><a href="#contact">Contact</a></li>
                     <li><a href="#resume">Resume</a></li>
@@ -21,67 +24,59 @@
             </div>
         </nav>
     </header>
+  
 
     <body>
-        <main>
-            <!-- Grid class made to separate left side section titles from main content on the left -->
-            <section class="grid">
-                <div>
-                    <h2 class="section-title">About Me</h2>
+
+        <div class="container">
+            <div class="row align-items-start">
+                <div class="col-3">
+                    <div class="title">Bio</div>
                 </div>
-                <!-- Content class made to put a border on the left and visually separate main content on the right -->
-                <div class="content">
-                    <img class="profile-pic" src="./assets/images/avatar.png" />
+                <div class="col-3 main">
+                    <img id="profilepic" src="./assets/images/avatar.png">
                 </div>
-                <div>
-                    <p> Hai! I'm Sophia. </p> 
-                    <p> I have a Bachelor of Science in Journalism and International Relations and am currently working toward my web development certification.</p>
+                <div class="col-6">
+                    <p> Hai! I'm Sophia. I have a Bachelor of Science in Journalism and International Relations and am currently working toward my web development certification.</p>
                     <p> I currently work as a video editor at CNN and stream video games on Twitch with the computer I built.</p>
                     <p> I'm looking forward to learning more about coding and getting into it full-time!</p>
                 </div>
-            </section>
+            </div>
+        </div>
 
-            <!-- Topics separated into sections -->
-            <section class="grid-two">
-                <div>
-                    <h2 class="section-title">Work</h2>
+        <div class="container">
+            <div class="row align-items-start">
+                <div class="col-3">
+                    <div class="title">Work</div>
                 </div>
-                <div class="content">
-                    <a href="#"><img class="primary-img" src="./assets/images/htmledited.png" /></a>
-                    <a href="#"><img class="secondary-img" src="./assets/images/formedited.png" /></a>
-                    <a href="#"><img class="secondary-img" src="./assets/images/keyboardedited.png" /></a>
+                <div class="col-9 main">
+                    <a href="https://sophiadelarosa.github.io/group-project/"><p> MUSIC DISCOVERY APP </p></a>
+                    <img id="project1" src="./assets/images/imda.png">
                 </div>
-            </section>
-            
-            <section class="grid-three" id="contact">
-                <div>
-                    <h2 class="section-title">Contact</h2>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row align-items-start">
+                <div class="col-3">
+                    <div class="title">Contact</div>
                 </div>
-                <div class="content">
+                <div class="col-6 main">
                     <a href="https://github.com/sophiadelarosa"><p>GitHub</p></a>
-                </div>
-                <div>
                     <p>404-862-1307</p>
-                </div>
-                <div>
                     <p>Sophia.DeLaRosa@warnermedia.com</p>
                 </div>
-            </section>
-        
-            <section class="grid-two" id="resume">
-                <div>
-                    <h2 class="section-title">Resume</h2>
-                </div>
-                <div class="content">
-                    <img class="resume" src="./assets/images/resume.png" />  
-                </div>
-            </section>
+            </div>
+        </div> 
 
 
-        </main>
-    
-        <footer></footer>
+
+
+        <footer>
+
+        </footer>
+
 
     </body>
-</html>
 
+</html>

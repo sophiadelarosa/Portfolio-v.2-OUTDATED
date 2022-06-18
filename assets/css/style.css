@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    }
+  
+    html {
+      height: 100%;
+      color: #020103;
+    }
+
+    header {
+        background-image: url('./images/aestheticdesktopblurred.jpg');
+        background-size: cover;
+        padding-top: 5px;
+        padding-bottom: 60px;
+        border-bottom: solid;
+        border-width: 4px;
+        border-color:#251c5e;
+      }
+
+    #navlinks {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    
+    .title {
+        font-size: 1.5rem;
+        margin: 1rem;
+        font-family: 'Press Start 2P', cursive;
+        color: #21143f;
+        padding-right: 50px;
+    }
+
+    body {
+        background-image: url('./images/cloudy.png');
+        background-size: cover;
+    }
+
+    .container {
+        margin-top: 40px;
+        margin-bottom: 100px;
+        padding-bottom: 70px;
+    }
+
+    p {
+        font-family: 'Monda', sans-serif;
+        color: #573a9c;
+    }
+
+    #profilepic {
+        width: 100%;
+    }
+
+    .main {
+        border-left: solid 5px #426de0;
+    }
+
+    #project1 {
+        width: 80%;
+    }
+
+    h3 {
+        color: #21143f;
+    }
