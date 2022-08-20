@@ -62,6 +62,12 @@
 
     #project1 {
         width: 80%;
+        padding-bottom: 45px;
+    }
+
+    #project2 {
+        width: 80%;
+        padding-bottom: 45px;
     }
 
     h3 {
